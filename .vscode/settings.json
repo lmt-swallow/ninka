@@ -1,0 +1,6 @@
+{
+  "files.watcherExclude": {
+    "**/bazel-*/**": true,
+    "**/third_party/**": true
+  }
+}
