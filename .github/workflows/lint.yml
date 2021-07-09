@@ -1,4 +1,4 @@
-name: Run lint for frontend
+name: Run lint
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
       - uses: actions-rs/clippy-check@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          args: --all-features --manifest-path frontend/Cargo.toml
+          args: --all-features
